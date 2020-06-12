@@ -67,7 +67,7 @@
   <project path="vendor/google" name="android_vendor_google" remote="du" revision="q10x" />
   <!-- Prebuilt gapps -->
   <project path="vendor/pixelgapps" name="ezio84/android_vendor_pixelgapps" remote="gitlab" revision="q" />
-  <project path="vendor/images" name="android_vendor_images" remote="du2" revision="q10x" />  
+  <project path="vendor/images" name="DirtyUnicorns/android_vendor_images" remote="du2" revision="q10x" />  
   <!-- AOSP trees -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
