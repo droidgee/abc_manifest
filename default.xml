@@ -12,6 +12,8 @@
            fetch="https://github.com" />
   <remote name="abc"
            fetch="https://github.com/ezio84/" />
+  <remote name="abc"
+           fetch="https://github.com/droidgee/" />		  
   <remote name="du"
            fetch="https://github.com/DirtyUnicorns/" />
   <remote name="gitlab"
@@ -36,7 +38,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="manifest" name="abc_manifest" remote="abc" revision="q" />
+  <project path="manifest" name="abc_manifest" remote="droidgee" revision="q" />
   <project path="external/google" name="abc_external_google" remote="abc" revision="q" />
   <project path="frameworks/av" name="abc_frameworks_av" groups="pdk" remote="abc" revision="q" />
   <project path="frameworks/base" name="abc_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="q" />
