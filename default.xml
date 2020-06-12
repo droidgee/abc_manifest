@@ -12,6 +12,8 @@
            fetch="https://github.com" />
   <remote name="abc"
            fetch="https://github.com/ezio84/" />
+  <remote name="du"
+           fetch="https://github.com/DirtyUnicorns/" />
   <remote name="gitlab"
            fetch="https://gitlab.com/" />
 
@@ -54,17 +56,13 @@
   <project path="vendor/support" name="abc_vendor_support" remote="abc" revision="q" />
   <project path="vendor/themes" name="abc_vendor_themes" remote="abc" revision="q" />
   <!-- ABC device trees -->
-  <project path="device/google/taimen" name="abc_device_google_taimen" remote="abc" revision="q" />
-  <project path="device/google/wahoo" name="abc_device_google_wahoo" remote="abc" revision="q" />
-  <project path="kernel/google/wahoo" name="abc_kernel_google_wahoo" remote="abc" revision="q" />
-  <project path="device/google/bonito" name="abc_device_google_bonito" remote="abc" revision="q" />
-  <project path="device/google/bonito-sepolicy" name="abc_device_google_bonito-sepolicy" remote="abc" revision="q" />
   <project path="kernel/google/bluecross" name="abc_kernel_google_bluecross" remote="abc" revision="q" />
-  <project path="vendor/google" name="abc_vendor_google" remote="abc" revision="q" />
-  <!-- Prebuilt gapps and vendor images -->
+  <!-- DU device trees -->
+  <project path="device/google/crosshatch" name="android_device_google_crosshatch" remote="du" revision="q" />
+  <project path="device/google/crosshatch-sepolicy" name="android_device_google_crosshatch-sepolicy" remote="du" revision="q" />
+  <project path="vendor/google" name="android_vendor_google" remote="du" revision="q" />
+  <!-- Prebuilt gapps -->
   <project path="vendor/pixelgapps" name="ezio84/android_vendor_pixelgapps" remote="gitlab" revision="q" />
-  <project path="vendor/images" name="ezio84/android_vendor_images" remote="gitlab" revision="q" />
-
   <!-- AOSP trees -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
