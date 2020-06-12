@@ -12,7 +12,7 @@
            fetch="https://github.com" />
   <remote name="abc"
            fetch="https://github.com/ezio84/" />
-  <remote name="abc"
+  <remote name="droidgee"
            fetch="https://github.com/droidgee/" />		  
   <remote name="du"
            fetch="https://github.com/DirtyUnicorns/" />
