@@ -60,9 +60,9 @@
   <!-- ABC device trees -->
   <project path="kernel/google/bluecross" name="abc_kernel_google_bluecross" remote="abc" revision="q" />
   <!-- DU device trees -->
-  <project path="device/google/crosshatch" name="android_device_google_crosshatch" remote="du" revision="q" />
-  <project path="device/google/crosshatch-sepolicy" name="android_device_google_crosshatch-sepolicy" remote="du" revision="q" />
-  <project path="vendor/google" name="android_vendor_google" remote="du" revision="q" />
+  <project path="device/google/crosshatch" name="android_device_google_crosshatch" remote="du" revision="q10x" />
+  <project path="device/google/crosshatch-sepolicy" name="android_device_google_crosshatch-sepolicy" remote="du" revision="q10x" />
+  <project path="vendor/google" name="android_vendor_google" remote="du" revision="q10x>
   <!-- Prebuilt gapps -->
   <project path="vendor/pixelgapps" name="ezio84/android_vendor_pixelgapps" remote="gitlab" revision="q" />
   <!-- AOSP trees -->
